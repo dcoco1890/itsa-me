@@ -20,45 +20,41 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
-        <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">Javascript</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
-      <li><a href="collapsible.html">Javascript</a></li>
-      <li><a href="mobile.html">Mobile</a></li>
-    </ul>
-    <!-- <div class="navbar-fixed">
-      <nav>
+    <div class="navbar-fixed">
+      <nav id="navbar">
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"
             ><i class="material-icons">menu</i></a
           >
           <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
+            <li>
+              <a href="#welcome-section"
+                ><i class="material-icons left">trending_up</i> About</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="material-icons left">view_module</i>Work</a>
+            </li>
+            <li>
+              <a href="#"><i class="material-icons left">phone</i>Contact</a>
+            </li>
           </ul>
         </div>
       </nav>
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-      </ul>
-    </div> -->
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#welcome-section">About</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <main id="welcome-section">
+      <h1>Daniel Cohen</h1>
+    </main>
+
+    <section id="projects">
+      <h2 class="project-tile">Skreet-Art</h2>
+    </section>
     <script src="js/app.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
