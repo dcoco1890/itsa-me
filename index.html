@@ -19,11 +19,12 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
+
   <body>
     <div class="navbar-fixed">
       <nav id="navbar">
         <div class="nav-wrapper">
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          <a href="#" data-target="mobile-menu" class="sidenav-trigger"
             ><i class="material-icons">menu</i></a
           >
           <ul class="right hide-on-med-and-down">
@@ -33,7 +34,9 @@
               >
             </li>
             <li>
-              <a href="#"><i class="material-icons left">view_module</i>Work</a>
+              <a href="#projects"
+                ><i class="material-icons left">view_module</i>Work</a
+              >
             </li>
             <li>
               <a href="#"><i class="material-icons left">phone</i>Contact</a>
@@ -42,18 +45,67 @@
         </div>
       </nav>
     </div>
-    <ul class="sidenav" id="mobile-demo">
+
+    <!-- Hamburger menu for smaller screens -->
+    <ul class="sidenav" id="mobile-menu">
       <li><a href="#welcome-section">About</a></li>
       <li><a href="#">Work</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
-
+    <!-- Main section -->
     <main id="welcome-section">
-      <h1>Daniel Cohen</h1>
+      <section id="main-section">
+        <h1 class="teal-text text-darken-4">Daniel Cohen</h1>
+        <div class="img-div">
+          <img src="img/glasses.jpg" id="pic-of-me" alt="Daniel Cohen" />
+        </div>
+      </section>
     </main>
 
+    <!-- Projects section -->
     <section id="projects">
-      <h2 class="project-tile">Skreet-Art</h2>
+      <h2 id="projects-banner">Here is some of my work</h2>
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/skreet-art.jpg" />
+            </div>
+            <div class="card-content">
+              <p>
+                <span class="card-title activator grey-text text-darken-4"
+                  >Skreet-Art<i class="material-icons right">more_vert</i></span
+                >
+                <a href="https://skreet-art.herokuapp.com" target="_blank">
+                  Link
+                </a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Skreet-Art<i class="material-icons right">close</i></span
+              >
+              <p>
+                <a href="https://skreet-art.herokuapp.com" target="_blank">
+                  Skreet-Art
+                </a>
+                is a full-stack app that tracks graffiti in Richmond, VA. You
+                can add pictures to the database along with a location.
+                Skreet-Art was a team effort with myself, Mr. Novak, and Ms.
+                Sallas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">w</div>
+        <div class="col s12 m6 l4">df</div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4"></div>
+        <div class="col s12 m4"></div>
+        <div class="col s12 m4"></div>
+      </div>
+      <h3 class="project-tile">Skreet-Art</h3>
     </section>
     <script src="js/app.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
