@@ -60,9 +60,11 @@ nav ul a {
 }
 
 #projects-banner {
-  max-width: 640px;
-  margin: 0 auto;
-  border-bottom: 0.2rem solid #fafafa;
+  max-width: 680px;
+  margin: 2rem auto;
+  border-bottom: 0.2rem solid #212121;
+  padding-bottom: 0.75rem;
+  font-weight: 800;
 }
 #projects {
   height: 100vh;
