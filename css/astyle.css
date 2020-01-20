@@ -81,7 +81,7 @@ nav ul a {
 } */
 
 .card .card-image img {
-  height: 400px;
+  height: 150px;
   object-fit: cover;
 }
 
@@ -114,4 +114,24 @@ span.code {
 
 div.card-insider:hover span.code {
   color: #607d8b;
+}
+
+#contact {
+  height: 80vh;
+}
+
+#contact-container {
+  background-color: #abc;
+}
+
+@media only screen and (max-width: 640px) {
+  .card .card-image img {
+    height: 150px;
+  }
+  div.card-content.grey.darken-4 {
+    padding: 5px 10px;
+  }
+  #projects {
+    height: unset;
+  }
 }
