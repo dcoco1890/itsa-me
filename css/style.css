@@ -72,12 +72,17 @@ nav ul a {
   max-width: 1280px;
   padding: 2rem;
 }
-
+/* 
 .card.small .card-image + .card-content {
   max-height: 30%;
 }
 .card .card-image img {
   height: 50%;
+} */
+
+.card .card-image img {
+  height: 400px;
+  object-fit: cover;
 }
 
 span.card-title > a.tooltipped {
