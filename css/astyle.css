@@ -9,7 +9,7 @@ h3#in-touch {
   margin: 0;
 }
 
-section#contact  p {
+section#contact p {
   font-style: italic;
   font-family: "Kanit", sans-serif;
 }
@@ -141,6 +141,11 @@ div.card-insider:hover span.code {
 #contact-info {
   display: flex;
 }
+@media only screen and (max-width: 1000px) {
+  #projects {
+    height: unset;
+  }
+}
 @media only screen and (max-width: 640px) {
   .card .card-image img {
     height: 150px;
@@ -148,7 +153,9 @@ div.card-insider:hover span.code {
   div.card-content.grey.darken-4 {
     padding: 5px 10px;
   }
-  #projects {
-    height: unset;
+
+  #in-touch {
+    padding: 1.25rem;
+    text-align: center;
   }
 }
